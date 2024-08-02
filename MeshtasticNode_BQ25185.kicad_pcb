@@ -12746,7 +12746,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "20240727, V0.1, BQ25185"
+	(gr_text "20240727, V0.2, BQ25185"
 		(at 208.5 99.4 0)
 		(layer "F.SilkS")
 		(uuid "49bbf225-f549-4f67-be5f-fdb301bbee49")
