@@ -2888,16 +2888,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 64.77) (xy 24.13 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b28c647-605d-4eea-8785-e55a8d7a129f")
-	)
-	(wire
-		(pts
 			(xy 118.11 139.7) (xy 118.11 144.78)
 		)
 		(stroke
@@ -2915,16 +2905,6 @@
 			(type default)
 		)
 		(uuid "16112b02-4785-4d20-81dc-c9c27ef35bf9")
-	)
-	(wire
-		(pts
-			(xy 24.13 53.34) (xy 24.13 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17ac359f-0c8b-412c-af18-5dbf2c8e3807")
 	)
 	(wire
 		(pts
@@ -3028,6 +3008,16 @@
 	)
 	(wire
 		(pts
+			(xy 15.24 74.93) (xy 15.24 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c6d601f-104d-4174-ad11-fb676531e064")
+	)
+	(wire
+		(pts
 			(xy 267.97 93.98) (xy 267.97 99.06)
 		)
 		(stroke
@@ -3055,16 +3045,6 @@
 			(type default)
 		)
 		(uuid "33a150aa-32d9-4c66-b1bc-5d50b640759b")
-	)
-	(wire
-		(pts
-			(xy 15.24 76.2) (xy 15.24 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37441801-b69b-4f71-94a8-09ad57965ddb")
 	)
 	(wire
 		(pts
@@ -3158,6 +3138,16 @@
 	)
 	(wire
 		(pts
+			(xy 15.24 64.77) (xy 15.24 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55d97046-ddc1-4a28-a9f5-0146c0face7c")
+	)
+	(wire
+		(pts
 			(xy 180.34 81.28) (xy 182.88 81.28)
 		)
 		(stroke
@@ -3165,6 +3155,16 @@
 			(type default)
 		)
 		(uuid "5707e779-f643-44ba-b9f3-eb663ebe3b5c")
+	)
+	(wire
+		(pts
+			(xy 15.24 50.8) (xy 15.24 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5731616c-3063-4ede-bdde-08a23e51d57d")
 	)
 	(wire
 		(pts
@@ -3185,6 +3185,16 @@
 			(type default)
 		)
 		(uuid "595b7929-e9c1-42ec-b5f2-4fe587193426")
+	)
+	(wire
+		(pts
+			(xy 24.13 74.93) (xy 24.13 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c2ba6bd-6c0d-42ca-be8c-5e167b74a02f")
 	)
 	(wire
 		(pts
@@ -3345,16 +3355,6 @@
 			(type default)
 		)
 		(uuid "80aac795-67dd-48d8-a25d-eea21f3196b5")
-	)
-	(wire
-		(pts
-			(xy 15.24 64.77) (xy 15.24 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80f5f375-8faf-4ea2-8178-46b1e719da4c")
 	)
 	(wire
 		(pts
@@ -3678,13 +3678,13 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 50.8) (xy 15.24 57.15)
+			(xy 24.13 64.77) (xy 24.13 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "db80023a-50e0-4778-9417-7b15e3d81836")
+		(uuid "d7b0ed56-fbdf-4b01-b327-4ebd58057e0e")
 	)
 	(wire
 		(pts
@@ -3838,16 +3838,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 76.2) (xy 24.13 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7b32c56-992b-48f0-9070-1f4e00c5178d")
-	)
-	(wire
-		(pts
 			(xy 290.83 93.98) (xy 290.83 99.06)
 		)
 		(stroke
@@ -3855,6 +3845,16 @@
 			(type default)
 		)
 		(uuid "f8a7cf5a-bf05-40f1-87a0-d6d64043541a")
+	)
+	(wire
+		(pts
+			(xy 24.13 53.34) (xy 24.13 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fad2cf6f-ae08-4b04-9a09-1132f096e777")
 	)
 	(wire
 		(pts
@@ -6686,7 +6686,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 24.13 60.96 90)
+		(at 24.13 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6695,7 +6695,7 @@
 		(fields_autoplaced yes)
 		(uuid "4dd001b5-b4aa-42d2-b9ed-ef0ff4ea72e8")
 		(property "Reference" "D1"
-			(at 27.94 61.2774 90)
+			(at 27.94 71.4374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6704,7 +6704,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 27.94 63.8174 90)
+			(at 27.94 73.9774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6713,7 +6713,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 24.13 60.96 0)
+			(at 24.13 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6722,7 +6722,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 60.96 0)
+			(at 24.13 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6731,7 +6731,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 24.13 60.96 0)
+			(at 24.13 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7102,7 +7102,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e50c2e43-1bef-4b57-b252-9db0bfb54b29")
+			(uuid "e50c2e43-1bef-4b57-b252-9db0bfb54b2a")
 		)
 		(instances
 			(project ""
@@ -8464,7 +8464,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 24.13 72.39 0)
+		(at 24.13 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8473,7 +8473,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa3eca62-b771-4eb6-8b40-5cc997af3b2d")
 		(property "Reference" "R2"
-			(at 26.67 71.1199 0)
+			(at 26.67 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8482,7 +8482,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 26.67 73.6599 0)
+			(at 26.67 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8491,7 +8491,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 22.352 72.39 90)
+			(at 22.352 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8500,7 +8500,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 72.39 0)
+			(at 24.13 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8509,7 +8509,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 24.13 72.39 0)
+			(at 24.13 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8809,7 +8809,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "054e5815-58bb-481e-b3da-ac0cab7bd9a2")
+			(uuid "054e5815-58bb-481e-b3da-ac0cab7bd9a3")
 		)
 		(instances
 			(project ""
@@ -9894,7 +9894,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 15.24 72.39 0)
+		(at 15.24 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9903,7 +9903,7 @@
 		(fields_autoplaced yes)
 		(uuid "d76342d4-7169-49e3-bd7d-5477533c8827")
 		(property "Reference" "R1"
-			(at 17.78 71.1199 0)
+			(at 17.78 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9912,7 +9912,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 17.78 73.6599 0)
+			(at 17.78 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9921,7 +9921,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 13.462 72.39 90)
+			(at 13.462 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9930,7 +9930,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 15.24 72.39 0)
+			(at 15.24 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9939,7 +9939,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 15.24 72.39 0)
+			(at 15.24 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9948,10 +9948,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "f76635fe-75e4-427f-9c48-a9c6b0857403")
+			(uuid "f76635fe-75e4-427f-9c48-a9c6b0857404")
 		)
 		(pin "1"
-			(uuid "49a1e762-a380-4711-9b2c-af110936181b")
+			(uuid "49a1e762-a380-4711-9b2c-af110936181c")
 		)
 		(instances
 			(project ""
@@ -10451,7 +10451,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 15.24 60.96 90)
+		(at 15.24 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10460,7 +10460,7 @@
 		(fields_autoplaced yes)
 		(uuid "e869d98d-ecf7-4e41-8805-ed9805f334ba")
 		(property "Reference" "D2"
-			(at 19.05 61.2774 90)
+			(at 19.05 71.4374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10469,7 +10469,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 19.05 63.8174 90)
+			(at 19.05 73.9774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10478,7 +10478,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 15.24 60.96 0)
+			(at 15.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10487,7 +10487,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 15.24 60.96 0)
+			(at 15.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10496,7 +10496,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 15.24 60.96 0)
+			(at 15.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10505,10 +10505,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e232c094-5593-4dac-8363-b070ca3b16b4")
+			(uuid "e232c094-5593-4dac-8363-b070ca3b16b5")
 		)
 		(pin "1"
-			(uuid "d8fc2928-8233-48bb-bab4-75c217110367")
+			(uuid "d8fc2928-8233-48bb-bab4-75c217110368")
 		)
 		(instances
 			(project ""
@@ -10735,10 +10735,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "be874b07-3eb7-4469-9e86-4cbe1bacbaa3")
+			(uuid "be874b07-3eb7-4469-9e86-4cbe1bacbaa4")
 		)
 		(pin "1"
-			(uuid "b529a687-d2d7-44b0-b9d2-3575e2f78c78")
+			(uuid "b529a687-d2d7-44b0-b9d2-3575e2f78c79")
 		)
 		(instances
 			(project ""
