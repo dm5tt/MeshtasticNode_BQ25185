@@ -4087,8 +4087,8 @@
 		(uuid 5245515a-c4ca-4809-9144-cca36d33dc98)
 	)
 	(rectangle
-		(start 107.95 120.65)
-		(end 134.62 177.8)
+		(start 107.95 119.38)
+		(end 134.62 154.94)
 		(stroke
 			(width 0.508)
 			(type dot)
@@ -4280,7 +4280,7 @@
 		)
 		(uuid "91707bfb-9ef3-4397-8325-ca26642e5beb")
 	)
-	(text "USART"
+	(text "I2C"
 		(exclude_from_sim no)
 		(at 111.506 123.698 0)
 		(effects
@@ -4587,7 +4587,7 @@
 		)
 		(uuid "a8246fd9-4bd4-47d8-b010-266a742052a5")
 	)
-	(label "VLOAD"
+	(label "VBUS"
 		(at 312.42 31.75 90)
 		(fields_autoplaced yes)
 		(effects
