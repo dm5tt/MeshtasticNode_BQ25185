@@ -5891,7 +5891,7 @@
 				)
 			)
 		)
-		(property "Value" "10M"
+		(property "Value" "1M"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6223,7 +6223,7 @@
 		(uuid "899d1312-96c4-47b4-8e1d-a8b9f2eea4b0")
 		(at 201.14 60.28 180)
 		(property "Reference" "U9"
-			(at -0.02 -2.26 360)
+			(at -0.02 -2.26 0)
 			(layer "F.SilkS")
 			(uuid "667fd3cc-42b4-46f0-9c48-fa822a211db0")
 			(effects
@@ -6234,7 +6234,7 @@
 			)
 		)
 		(property "Value" "SS26_C5350986"
-			(at 0 4 360)
+			(at 0 4 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "01e5b57d-7198-4fa7-b872-a33ffee2d47e")
@@ -6246,7 +6246,7 @@
 			)
 		)
 		(property "Footprint" "footprints:SMA_L4.3-W2.6-LS5.1-RD"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b88cfb99-d483-4b78-b795-0aa8ca663550")
@@ -6258,7 +6258,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b80a3f7b-b7a2-43bb-ad0b-8ab19f7b26ff")
@@ -6270,7 +6270,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9510d8e2-d8ac-4fb6-9c31-b8804c29b67f")
@@ -6490,7 +6490,7 @@
 			(uuid "70ca1256-0272-45a3-8d30-1684d2e7dd35")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.15 -0.31 360)
+			(at 0.15 -0.31 0)
 			(layer "F.Fab")
 			(uuid "2f2bc35d-be65-4cd3-9989-be6bd1650f42")
 			(effects
@@ -9610,7 +9610,7 @@
 				)
 			)
 		)
-		(property "Value" "10M"
+		(property "Value" "1M"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
