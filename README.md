@@ -79,8 +79,6 @@ Meshtastic  supports the "Power Saving" mode on the ESP32 where the entire   dev
 
 Still far away from the Wisblock. But who cares? During the day you will have a positive power budget so the entire devices runs on solar energy and recharges its battery. 
 
-I didn't make any measurements yet with active data (LoRa peaks the transmission up to 170mA for a few ms) but 2-3 nights without charging should be no problem with a 1000mA battery. But this heavily depends on the duty cycle and the ISM limits.
-
 *It's not really that cheap either!*
 
 Yep. It's expensive if you build only 1 device. But the costs dramatically drop if think of building 5-10 of them as you can mass order everything (PCBs, Components from LCSC and so own).
