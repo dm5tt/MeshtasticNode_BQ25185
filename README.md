@@ -17,6 +17,19 @@ Features of this PCB
 
 Combined with a solar panel this device can be placed in remote areas to cover a wide range.
 
+
+# Where can I get all the stuff?
+
+Heltec HT-CT62: Aliexpress
+
+TI BQ25185: Mouser or Digikey
+
+PCB: You can load the Kicad project file and then export the manufacturing files using the plugins. Just throw them into JLCPCB and order them.
+
+Everything else can be ordered from LCSC.
+
+Due to strict legislation, it is not planned to offer ready-made circuit boards or kits here. Sorry.
+
 # Do I have to modify the Software and configuration?
 
 No. Only some smaller changes regarding the pin mapping is required.
