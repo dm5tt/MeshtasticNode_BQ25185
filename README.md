@@ -22,6 +22,33 @@ Combined with a solar panel this device can be placed in remote areas to cover a
 No. Only some smaller changes regarding the pin mapping is required.
 
 ```
+diff --git a/variants/heltec_esp32c3/variant.h b/variants/heltec_esp32c3/variant.h
+index ca00c43f..4f13248f 100644
+--- a/variants/heltec_esp32c3/variant.h
++++ b/variants/heltec_esp32c3/variant.h
+@@ -1,16 +1,13 @@
+-#define BUTTON_PIN 9
+-
+-// LED pin on HT-DEV-ESP_V2 and HT-DEV-ESP_V3
+-// https://resource.heltec.cn/download/HT-CT62/HT-CT62_Reference_Design.pdf
+-// https://resource.heltec.cn/download/HT-DEV-ESP/HT-DEV-ESP_V3_Sch.pdf
+-#define LED_PIN 2      // LED
+-#define LED_STATE_ON 1 // State when LED is lit
+-
+ #define HAS_SCREEN 0
+ #define HAS_GPS 0
+ #undef GPS_RX_PIN
+ #undef GPS_TX_PIN
+ 
++#define BATTERY_PIN 1
++#define ADC_CHANNEL ADC1_GPIO1_CHANNEL
++#define ADC_MULTIPLIER 2
++#define BATTERY_SENSE_SAMPLES 5
++
+ #define USE_SX1262
+ #define LORA_SCK 10
+ #define LORA_MISO 6
+
 diff --git a/variants/heltec_esp32c3/pins_arduino.h b/variants/heltec_esp32c3/pins_arduino.h
 index a717a370..b8ebc09c 100644
 --- a/variants/heltec_esp32c3/pins_arduino.h
@@ -37,29 +64,19 @@ index a717a370..b8ebc09c 100644
  
  static const uint8_t SS = 8;
  static const uint8_t MOSI = 7;
-diff --git a/variants/heltec_esp32c3/variant.h b/variants/heltec_esp32c3/variant.h
-index 360d9bf1..4f66476d 100644
---- a/variants/heltec_esp32c3/variant.h
-+++ b/variants/heltec_esp32c3/variant.h
-@@ -1,16 +1,11 @@
--#define BUTTON_PIN 9
 
--#define LED_PIN 2 // LED
--#define LED_INVERTED 0
-
- #define HAS_SCREEN 0
- #define HAS_GPS 0
- #undef GPS_RX_PIN
- #undef GPS_TX_PIN
- 
-+#define BATTERY_PIN 1
-+#define ADC_CHANNEL ADC1_GPIO1_CHANNEL
-+#define ADC_MULTIPLIER 2 * 1.015
-+#define BATTERY_SENSE_SAMPLES 30
-+
- #define USE_SX1262
- #define LORA_SCK 10
- #define LORA_MISO 6
+diff --git a/variants/heltec_esp32c3/platformio.ini b/variants/heltec_esp32c3/platformio.ini
+index 6fe5c3c6..8087aa08 100644
+--- a/variants/heltec_esp32c3/platformio.ini
++++ b/variants/heltec_esp32c3/platformio.ini
+@@ -8,4 +8,6 @@ build_flags =
+ monitor_speed = 115200
+ upload_protocol = esptool
+ ;upload_port = /dev/ttyUSB0
+-upload_speed = 921600
+\ No newline at end of file
++upload_speed = 921600
++board_build.f_cpu = 80000000L
 ```
 
 When configuring the device you should set the "Minimum Wake Interval" from 10 seconds to 1 second.
