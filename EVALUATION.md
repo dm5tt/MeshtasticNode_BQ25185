@@ -20,7 +20,7 @@ Lessons learned:
 
 Lessons learned:
 
- - Voltage dividers with 10M:10M and a 100nF puffer C works perfectly fine. The power drain is below the battery self discharge level and the ESP32 ADC is able to sample the voltage without getting too much noise.
+ - Voltage dividers with 1M:1M and a 100nF puffer C works perfectly fine. The power drain is below the battery self discharge level and the ESP32 ADC is able to sample the voltage without getting too much noise.
 
  - The crappy ESP32 ADC isn't super precise. Known issue.
 
