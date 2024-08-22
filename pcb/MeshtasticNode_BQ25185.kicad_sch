@@ -3115,6 +3115,14 @@
 		(uuid "ba63b9af-13ac-4bd4-ba31-0fc8eda31ca5")
 	)
 	(no_connect
+		(at 218.44 86.36)
+		(uuid "bca1dfab-e96d-4fe1-a2fd-e5fbbd17027f")
+	)
+	(no_connect
+		(at 182.88 86.36)
+		(uuid "dcf59f6a-3988-41f7-b6f7-7fd4a5cf08bf")
+	)
+	(no_connect
 		(at 182.88 91.44)
 		(uuid "e3df3979-b150-4d6e-9b59-c0aa701b9602")
 	)
@@ -3207,6 +3215,16 @@
 			(type default)
 		)
 		(uuid "110fa855-6e5d-48ab-9369-b8a1c77c0f8b")
+	)
+	(wire
+		(pts
+			(xy 123.19 166.37) (xy 123.19 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1583a212-b126-4ecb-bb80-e0519d8eb591")
 	)
 	(wire
 		(pts
@@ -3520,6 +3538,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 152.4) (xy 151.13 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65ad4f90-ab3a-4dec-b674-45d2650cadbe")
+	)
+	(wire
+		(pts
 			(xy 78.74 86.36) (xy 82.55 86.36)
 		)
 		(stroke
@@ -3830,6 +3858,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 152.4) (xy 143.51 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a480a49b-3c86-4f93-bf97-acabada94f37")
+	)
+	(wire
+		(pts
 			(xy 34.29 161.29) (xy 34.29 168.91)
 		)
 		(stroke
@@ -3877,16 +3915,6 @@
 			(type default)
 		)
 		(uuid "adbbeae2-c21d-4d26-a298-5d601910c96d")
-	)
-	(wire
-		(pts
-			(xy 218.44 86.36) (xy 220.98 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae1a68b5-7151-45ef-ab27-3046a1eb7b95")
 	)
 	(wire
 		(pts
@@ -4020,6 +4048,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 166.37) (xy 115.57 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3055829-23ca-4ad4-b85f-c8d9a656ad56")
+	)
+	(wire
+		(pts
 			(xy 25.4 138.43) (xy 25.4 135.89)
 		)
 		(stroke
@@ -4027,6 +4065,16 @@
 			(type default)
 		)
 		(uuid "d366cc59-b95a-4343-904a-b3b8b0e1e1e4")
+	)
+	(wire
+		(pts
+			(xy 120.65 166.37) (xy 120.65 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d568523b-ec0b-457b-a93b-9291e9ca59dd")
 	)
 	(wire
 		(pts
@@ -4067,6 +4115,16 @@
 			(type default)
 		)
 		(uuid "d8f3167b-057a-4d6b-9c3f-a42f667fd450")
+	)
+	(wire
+		(pts
+			(xy 143.51 140.97) (xy 143.51 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da220d30-6885-4c67-b906-be857fc8c322")
 	)
 	(wire
 		(pts
@@ -4137,6 +4195,16 @@
 			(type default)
 		)
 		(uuid "e25b871c-b648-4ef7-a5b9-4e178499f605")
+	)
+	(wire
+		(pts
+			(xy 151.13 140.97) (xy 151.13 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e432978d-5bbe-481f-bc40-98270c978899")
 	)
 	(wire
 		(pts
@@ -4220,6 +4288,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 166.37) (xy 118.11 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f89f1a30-ab72-4047-a62b-21506e649c86")
+	)
+	(wire
+		(pts
 			(xy 88.9 54.61) (xy 88.9 53.34)
 		)
 		(stroke
@@ -4298,7 +4376,7 @@
 	)
 	(rectangle
 		(start 107.95 119.38)
-		(end 134.62 181.61)
+		(end 166.37 182.88)
 		(stroke
 			(width 0.508)
 			(type dot)
@@ -4576,6 +4654,17 @@
 		)
 		(uuid "1797e0a3-3908-44ae-9b0d-48bb8fbec772")
 	)
+	(label "I2C_SCL"
+		(at 120.65 171.45 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1d30f348-336e-41fe-b7ae-45398b6f371b")
+	)
 	(label "ADC_VBUS"
 		(at 180.34 81.28 180)
 		(fields_autoplaced yes)
@@ -4630,6 +4719,17 @@
 			(justify left bottom)
 		)
 		(uuid "352aaf12-09b4-4b18-9b08-b86c85ba6a9d")
+	)
+	(label "GND"
+		(at 115.57 171.45 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3dc985f4-4d69-4085-a3d3-5673e99e933e")
 	)
 	(label "VLIPO"
 		(at 16.51 168.91 270)
@@ -4730,7 +4830,7 @@
 		)
 		(uuid "6fbc5900-a2c8-419e-9188-76bdf09967a3")
 	)
-	(label "I2C_SDA"
+	(label "I2C_SCL"
 		(at 120.65 144.78 270)
 		(fields_autoplaced yes)
 		(effects
@@ -4740,6 +4840,17 @@
 			(justify right bottom)
 		)
 		(uuid "7032f7d5-cb96-4b93-8340-a63b322df221")
+	)
+	(label "+3V3"
+		(at 118.11 171.45 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "73855751-b59e-480d-b96e-6f2ade9dc4bd")
 	)
 	(label "ADC_LIPO"
 		(at 290.83 44.45 0)
@@ -4751,6 +4862,17 @@
 			(justify left bottom)
 		)
 		(uuid "8786829a-bbec-4acc-b6e5-3fd8984a1970")
+	)
+	(label "I2C_SDA"
+		(at 151.13 140.97 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8925a26d-3fc8-445c-bc3f-3724fb88236d")
 	)
 	(label "ESP32_ENABLE"
 		(at 270.51 102.87 270)
@@ -4773,6 +4895,39 @@
 			(justify left bottom)
 		)
 		(uuid "8f54f707-22d7-4c89-9188-723a300a12d9")
+	)
+	(label "I2C_SCL"
+		(at 143.51 140.97 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99b00b00-9706-4426-adb5-6e2427375a6b")
+	)
+	(label "+3V3"
+		(at 143.51 156.21 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "99d8668c-7f92-4465-9f73-ba523da36220")
+	)
+	(label "+3V3"
+		(at 151.13 156.21 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f6dde25-c8b0-4b9b-b5ca-77342b9115ee")
 	)
 	(label "LED_STAT2"
 		(at 41.91 53.34 0)
@@ -4873,7 +5028,7 @@
 		)
 		(uuid "b0c3bccc-2e30-41a9-be93-474942b9e07f")
 	)
-	(label "I2C_SCL"
+	(label "I2C_SDA"
 		(at 123.19 144.78 270)
 		(fields_autoplaced yes)
 		(effects
@@ -4949,6 +5104,17 @@
 			(justify left bottom)
 		)
 		(uuid "dae2a604-d8cb-4d06-b2c2-9819f3b631a0")
+	)
+	(label "I2C_SDA"
+		(at 123.19 171.45 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e0c4ad80-852a-4879-a86f-3c383de52537")
 	)
 	(label "+3V3"
 		(at 81.28 170.18 90)
@@ -6075,6 +6241,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 143.51 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25e59e23-91b6-44ff-a231-aa79781759f7")
+		(property "Reference" "R2"
+			(at 146.05 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 146.05 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 141.732 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 143.51 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5e8f28d3-5059-4d31-9735-1bad44c2c31e")
+		)
+		(pin "1"
+			(uuid "2a74e391-0e80-4772-bd34-7c990afaf63f")
+		)
+		(instances
+			(project ""
+				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
 		(at 118.11 134.62 90)
 		(unit 1)
@@ -6752,6 +6988,76 @@
 			(project "SRCS"
 				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 151.13 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b3c97b4-a788-478a-908e-4fc0e462902b")
+		(property "Reference" "R9"
+			(at 153.67 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 153.67 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 149.352 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 151.13 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "edb2b0e7-1da9-4906-bd81-7c47ad053aaf")
+		)
+		(pin "1"
+			(uuid "869f6b60-4910-4942-80dd-3b0efb0e248a")
+		)
+		(instances
+			(project "MeshtasticNode_BQ25185"
+				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -8878,6 +9184,170 @@
 			(project ""
 				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 118.11 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd8ecd80-a991-4c72-8a35-17c84b245144")
+		(property "Reference" "J5"
+			(at 119.38 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Socket"
+			(at 119.38 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
+			(at 118.11 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 118.11 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 118.11 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 118.11 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 118.11 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 118.11 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 118.11 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 118.11 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 118.11 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 118.11 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 118.11 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 118.11 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08691fa6-bb5a-472a-93d0-118600944fdc")
+		)
+		(pin "4"
+			(uuid "ea7ebeb4-3a57-4c49-bb07-44af7b077799")
+		)
+		(pin "3"
+			(uuid "296e0e20-ac98-4f22-992f-9640162aa4c4")
+		)
+		(pin "2"
+			(uuid "10c3a02c-1fc8-40a1-ad70-6bb2b34f2884")
+		)
+		(instances
+			(project "MeshtasticNode_BQ25185"
+				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
+					(reference "J5")
 					(unit 1)
 				)
 			)
