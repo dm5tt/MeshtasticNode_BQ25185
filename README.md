@@ -12,7 +12,7 @@ Features of this PCB
  - Power Path (= if the battery is fully charged and there's enough solar power the device is getting powered directly from solar)
  - Pseudo-MPPT (VINDPM)
  - Two ADC pins to get battery (GPIO1) and solar (GPIO0) voltage using voltage dividers
- - Battery either with a  CR123A or JST-PH 3.7V LiPo
+ - 3.7V LiPo either via 18650 block or JST-PH 2.0 connector
  - Low power LDO [HEERMICR HE9073A33MR](https://www.lcsc.com/datasheet/lcsc_datasheet_2201242130_HEERMICR-HE9073A33MR_C723793.pdf)
 
 Combined with a solar panel this device can be placed in remote areas to cover a wide range.
