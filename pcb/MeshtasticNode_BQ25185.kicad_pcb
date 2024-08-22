@@ -13890,6 +13890,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "GPIO9 = 1: SW\nGPIO9 = 0: BL"
+		(at 207.28 92.68 0)
+		(layer "F.SilkS")
+		(uuid "6db13d77-32ef-44c3-a446-d5bab6572b75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "S1"
 		(at 214.21 82.56 0)
 		(layer "F.SilkS")
