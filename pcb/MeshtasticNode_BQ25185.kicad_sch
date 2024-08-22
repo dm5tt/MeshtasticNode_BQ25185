@@ -3200,16 +3200,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 166.37) (xy 121.92 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c6b81ff-ab63-4087-beca-70208ee3658d")
-	)
-	(wire
-		(pts
 			(xy 118.11 139.7) (xy 118.11 144.78)
 		)
 		(stroke
@@ -3820,16 +3810,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 166.37) (xy 116.84 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96581173-6c56-486a-89ab-441f6a11dfd0")
-	)
-	(wire
-		(pts
 			(xy 76.2 135.89) (xy 77.47 135.89)
 		)
 		(stroke
@@ -4007,16 +3987,6 @@
 			(type default)
 		)
 		(uuid "cea798ba-c01e-42a6-9fc8-d2479ccba673")
-	)
-	(wire
-		(pts
-			(xy 124.46 166.37) (xy 124.46 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf0dfd44-dbd1-4071-b55c-e7a2d7fc8996")
 	)
 	(wire
 		(pts
@@ -4247,16 +4217,6 @@
 			(type default)
 		)
 		(uuid "f641c4c5-d3bd-4eef-81a1-2419881fa421")
-	)
-	(wire
-		(pts
-			(xy 119.38 166.37) (xy 119.38 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb9b36ec-9f06-4892-97f8-a139832c1387")
 	)
 	(wire
 		(pts
@@ -4605,17 +4565,6 @@
 		)
 		(uuid "11a5810b-dbf1-428b-aeb3-f9276f53b871")
 	)
-	(label "I2C_SDA"
-		(at 121.92 171.45 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "146082b5-f0da-4f0a-ae86-369a08029183")
-	)
 	(label "VLIPO"
 		(at 92.71 53.34 0)
 		(fields_autoplaced yes)
@@ -4648,17 +4597,6 @@
 			(justify left bottom)
 		)
 		(uuid "1efc6fdf-365d-4f77-a2ce-77c15725e649")
-	)
-	(label "GND"
-		(at 116.84 171.45 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "28391b42-6690-4d63-9303-ce9ce3648a45")
 	)
 	(label "VLOAD"
 		(at 40.64 133.35 0)
@@ -4781,17 +4719,6 @@
 		)
 		(uuid "53ce25d3-3ced-462e-8375-c1371c7577e7")
 	)
-	(label "+3V3"
-		(at 119.38 171.45 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "62eaa21d-bf23-4d74-a3f3-f8f7f1ef3e32")
-	)
 	(label "GND"
 		(at 115.57 85.09 270)
 		(fields_autoplaced yes)
@@ -4813,17 +4740,6 @@
 			(justify right bottom)
 		)
 		(uuid "7032f7d5-cb96-4b93-8340-a63b322df221")
-	)
-	(label "I2C_SCL"
-		(at 124.46 171.45 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7fe4178e-dc95-44e5-9fc9-914d82bbeaac")
 	)
 	(label "ADC_LIPO"
 		(at 290.83 44.45 0)
@@ -8043,7 +7959,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "footprints:RES-TH_L6.5-W4.0-P2.50-D0.5"
 			(at 90.17 93.98 0)
 			(effects
 				(font
@@ -8182,170 +8098,6 @@
 			(project ""
 				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
 					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Socket")
-		(at 119.38 161.29 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8152522d-395a-4571-a830-3d2451cd3c17")
-		(property "Reference" "J5"
-			(at 120.65 156.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04_Socket"
-			(at 120.65 158.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
-			(at 119.38 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 119.38 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 119.38 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 119.38 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 119.38 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 119.38 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 119.38 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 119.38 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 119.38 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 119.38 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 119.38 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 119.38 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6da304af-34e7-4f99-b839-8bc233c68b90")
-		)
-		(pin "4"
-			(uuid "b38dcca5-4f15-4363-8f5e-e7cb73b36927")
-		)
-		(pin "3"
-			(uuid "d81c088f-3f14-4a8e-8f05-3e644d2aa892")
-		)
-		(pin "2"
-			(uuid "f2b6ed1f-8f2e-4c29-b343-65713ffefd22")
-		)
-		(instances
-			(project "MeshtasticNode_BQ25185"
-				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -10794,7 +10546,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:BAT-TH_BH-123A-A5BJ002"
+		(property "Footprint" "footprints:BAT-TH_BH-18650-A1AJ005"
 			(at 25.4 168.91 0)
 			(effects
 				(font
