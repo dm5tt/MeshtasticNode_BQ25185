@@ -42,7 +42,7 @@ For a real world test I setup following hardware configuration:
 
  - ISET = 300Ohm: Solar current of 1A 
  - ILM = 100kOhm: Maximum charging voltage 4.1V@1100mA
- - Fully charged 2800mAh battery
+ - Noname ~800mAh 3.7V CR123A LiPo
  - 6V 290mAh solar cell
 
 
