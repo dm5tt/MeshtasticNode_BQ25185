@@ -99,7 +99,7 @@ Switch  Bluetooth and Wifi off! They suck power like crazy.
 
 # Evaluation
 
-[Real World Evaluation of the device](./EVALUATION.md)
+[Evaluation, PCB v0.2 (CR123A)](./EVALUATION-v02.md)
 
 # FAQ
 
