@@ -2,21 +2,20 @@
 
 ## What is this thing?
 
-This is a Meshtastic solar node based on the [Heltec HT-CT62](https://resource.heltec.cn/download/HT-CT62/HT-CT62(Rev1.1).pdf) and the (new) solar charge controller [TI BQ25185](https://duckduckgo.com).
+This is a Meshtastic solar node based on the [Heltec HT-CT62](https://resource.heltec.cn/download/HT-CT62/HT-CT62(Rev1.1).pdf) and the (new) solar charge controller [TI BQ25185](https://www.ti.com/lit/ds/symlink/bq25185.pdf).
 
 Features of this PCB
 
  - Solar Input up to 18V (24V survival)
  - 3A maximum load
  - 1A maximum charge current
- - Power Path (= if the battery is fully charged and there's enough solar power the device is getting powered directly from solar)
  - Pseudo-MPPT (VINDPM)
+ - Power Path (= if the battery is fully charged and there's enough solar power the device is getting powered directly from solar)
  - Two ADC pins to get battery (GPIO1) and solar (GPIO0) voltage using voltage dividers
  - 3.7V LiPo either via 18650 block or JST-PH 2.0 connector
  - Low power LDO [HEERMICR HE9073A33MR](https://www.lcsc.com/datasheet/lcsc_datasheet_2201242130_HEERMICR-HE9073A33MR_C723793.pdf)
 
 Combined with a solar panel this device can be placed in remote areas to cover a wide range.
-
 
 # Where can I get all the stuff?
 
@@ -113,6 +112,15 @@ Still far away from the Wisblock. But who cares? During the day you will have a 
 
 Yep. It's expensive if you build only 1 device. But the costs dramatically drop if think of building 5-10 of them as you can mass order everything (PCBs, Components from LCSC and so own).
 
+*The TI BQ25185 uses a linear regulator. That will be inefficient for solar panels above 6V.*
+
+Yep. That's true. One of the major flaws of this design. 
+
+There are other variants (TI BQ25620/BQ25622) that are using a Buck converter.
+
+Most likely (untested) this will cause troubles during the winter time where 18V solar panels would be a great benefit.
+
+This is going to be in a new design (as MeshtasticNode_BQ25185 is now fully tested) in a few months.
 
 # Warning
 
