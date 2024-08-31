@@ -24,12 +24,14 @@ Lessons learned:
 
  - The crappy ESP32 ADC isn't super precise. Known issue.
 
- - For now the TI BQ25185 seems to be the right decision
-   - Being able to 18V panels gives a lot of margin for bad weather
+ - For panels up to ~6V the TI BQ25185 seems to be the right decision
+   - It will get very hot at higher voltage levels because of its linear design. That inefficient and also bad for low temperature soldering paste.  
    - The end-of-charge voltage can be reduced in several steps to extend the battery life
-   - Power path'ing switches the battery off if sunlight is enough to power the device. It's also able to mix both sources.
+   - Power path'ing switches the battery off if sunlight is enough to power the device. It's also able to mix both sources
    - Pseudo MPPT (VINDPM) always gets us the maximum amount of current out of the solar panel
-   - CR123a LiPos seem to be a nice trade-off between size and stored power. Also there are cheap variants with integration protection circuits.
+
+- Don't use CR123A batteries. They are non-standard for 3.7V LiPos and there are a lot of fakes around. The missing market makes them very expensive.
+   - Go for battery size 18650 or even 21700
 
 - The ESP32C3 can be thamed in terms of current consumption. But let's be honest: it's not a Nordic or STM32U0.
   - Stay in light sleep as much as possible (theoretically ~600-800uA) and wake up by interrupts
