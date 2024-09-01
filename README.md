@@ -2,7 +2,7 @@
 
 ## What is this thing?
 
-This is a Meshtastic solar node based on the [Heltec HT-CT62](https://resource.heltec.cn/download/HT-CT62/HT-CT62(Rev1.1).pdf) and the (new) solar charge controller [TI BQ25185](https://www.ti.com/lit/ds/symlink/bq25185.pdf).
+This is a Meshtastic solar node based on the [Heltec HT-CT62](https://resource.heltec.cn/download/HT-CT62/HT-CT62(Rev1.1).pdf) and the (new) linear solar charge controller [TI BQ25185](https://www.ti.com/lit/ds/symlink/bq25185.pdf).
 
 Features of this PCB
 
