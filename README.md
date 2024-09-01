@@ -11,7 +11,7 @@ Features of this PCB
  - 1A maximum charge current
  - Pseudo-MPPT (VINDPM)
  - Power Path (= if the battery is fully charged and there's enough solar power the device is getting powered directly from solar)
- - Two ADC pins to get battery (GPIO1) and solar (GPIO0) voltage using voltage dividers
+ - Two ADC signals for getting VLOAD and  VBUS voltage using voltage dividers
  - 3.7V LiPo either via 18650 block or JST-PH 2.0 connector
  - Low power LDO [HEERMICR HE9073A33MR](https://www.lcsc.com/datasheet/lcsc_datasheet_2201242130_HEERMICR-HE9073A33MR_C723793.pdf)
 
