@@ -38,6 +38,8 @@ Lessons learned:
   - Stay in light sleep as much as possible (theoretically ~600-800uA) and wake up by interrupts
   - Avoid BLE or Wifi at all costs
 
+- May power drain will be the LoRa module which sucks ~2-4mA during passive RX
+
 
  ## Measurements
 
