@@ -9,7 +9,8 @@ Lessons learned:
 
   - Use 5-6mm spacers between the solar panel and the box. It indirectly can act as a sunshield. As solar panels are mostly black they heat up a lot and so shouldn't be directly attached to it.
   - White or silver spray reduces the temperature even more. Bonus if it's a highly reflective spray.
-  - Gore venting plugs are very expensive but useful to control the humidity. Not overly  critical as long it's only normal water - but salty air like close to the ocean kills electronics.
+  - Gore venting plugs are very expensive but useful to control the humidity. Not overly  critical as long it's only normal water - but salty air like close to the ocean kills electronics. EDIT:
+  - Alternative to Gore venting plugs: you can use syringe filters! They are cheap (100pcs@20€ at Aliexpress) with 0.8um pores .
   - Never use any hot glue. I switched to polymer adhesives used for boats and pools. A slight residual elasticity is desirable as it prevents breakage due to cable movement.
 
 
