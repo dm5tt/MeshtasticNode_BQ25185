@@ -1,4 +1,4 @@
-# Test of a Heltec HT-CT62 / TI BQ25185 based Meshtastic node
+# Test of the selfbuild Heltec HT-CT62 / TI BQ25185 based Meshtastic node
 
 ## Case
 
@@ -32,13 +32,13 @@ Lessons learned:
    - Pseudo MPPT (VINDPM) always gets us the maximum amount of current out of the solar panel
 
 - Don't use CR123A batteries. They are non-standard for 3.7V LiPos and there are a lot of fakes around. The missing market makes them very expensive.
-   - Go for battery size 18650 or even 21700
+   - Go for the standard LiPo battery size 18650 or even 21700
 
 - The ESP32C3 can be thamed in terms of current consumption. But let's be honest: it's not a Nordic or STM32U0.
   - Stay in light sleep as much as possible (theoretically ~600-800uA) and wake up by interrupts
   - Avoid BLE or Wifi at all costs
 
-- May power drain will be the LoRa module which sucks ~2-4mA during passive RX
+- Most power drain will be the LoRa module which sucks ~2-4mA during passive RX
 
 
  ## Measurements
