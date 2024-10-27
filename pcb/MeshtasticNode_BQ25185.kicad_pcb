@@ -13746,6 +13746,18 @@
 		(layer "Edge.Cuts")
 		(uuid "df74cf6a-bbdc-4b02-b897-346902e80315")
 	)
+	(gr_text "Boot:\n GPIO9 = 1: SW\n GPIO9 = 0: BL\n\nISET:\n 300Ohm  -> 1A \n\nILM:\n 100kOhm -> 4.1V@1100mA\n 13kOhm  -> 4.2V@1100mA\n "
+		(at 207.18 115.16 0)
+		(layer "B.SilkS")
+		(uuid "6db13d77-32ef-44c3-a446-d5bab6572b75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "SDA"
 		(at 212.21 38.25 0)
 		(layer "F.SilkS")
@@ -13778,18 +13790,6 @@
 			(font
 				(size 1 1)
 				(thickness 0.153)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "ISET:\n 300Ohm  -> 1A \n\nILM:\n 100kOhm -> 4.1V@1100mA\n 13kOhm  -> 4.2V@1100mA\n "
-		(at 230.45 99.96 0)
-		(layer "F.SilkS")
-		(uuid "1f371885-f7d3-4e9d-91ef-1d31167d9c62")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
@@ -13842,7 +13842,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "20240823, V0.6, BQ25185"
+	(gr_text "20241027, V1.0, BQ25185"
 		(at 208.5 119.4 0)
 		(layer "F.SilkS")
 		(uuid "49bbf225-f549-4f67-be5f-fdb301bbee49")
@@ -13855,7 +13855,7 @@
 		)
 	)
 	(gr_text "Heatsink! \nKeep Free!"
-		(at 234.21 80.87 90)
+		(at 234.02 76.53 90)
 		(layer "F.SilkS")
 		(uuid "57679780-0807-4a0b-ba8c-1017ec96d1d5")
 		(effects
@@ -13863,7 +13863,7 @@
 				(size 1 1)
 				(thickness 0.1)
 			)
-			(justify left bottom)
+			(justify bottom)
 		)
 	)
 	(gr_text "EN"
@@ -13874,18 +13874,6 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "GPIO9 = 1: SW\nGPIO9 = 0: BL"
-		(at 207.28 92.68 0)
-		(layer "F.SilkS")
-		(uuid "6db13d77-32ef-44c3-a446-d5bab6572b75")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
@@ -14011,7 +13999,7 @@
 		)
 	)
 	(gr_text "2.4GHz"
-		(at 236.18 38.32 0)
+		(at 235.76 38.36 0)
 		(layer "F.SilkS")
 		(uuid "cc4fbac2-a13a-4313-843e-6144b770a81a")
 		(effects
@@ -14095,14 +14083,15 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "This is a Meshtastic Solar Node"
-		(at 230.98 105.66 0)
-		(layer "F.SilkS")
+	(gr_text "This is a \nMeshtastic\nSolar Station\nJoin us!"
+		(at 231.3 105.79 0)
+		(layer "F.SilkS" knockout)
 		(uuid "ec1a8cf4-3670-4b7f-95cd-a91770f8918c")
 		(effects
 			(font
-				(size 1.5 1.5)
-				(thickness 0.153)
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
 			)
 			(justify bottom)
 		)
