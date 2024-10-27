@@ -13,7 +13,7 @@ Features of this PCB
  - Power Path (= if the battery is fully charged and there's enough solar power the device is getting powered directly from solar)
  - Two ADC signals for getting VLOAD and  VBUS voltage using voltage dividers
  - 3.7V LiPo either via 18650 block or JST-PH 2.0 connector
- - Low power LDO [HEERMICR HE9073A33MR](https://www.lcsc.com/datasheet/lcsc_datasheet_2201242130_HEERMICR-HE9073A33MR_C723793.pdf)
+ - Low power LDO [HEERMICR HE9073A30MR](https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_HEERMICR-HE9073A30MR_C723792.pdf)
 
 Combined with a solar panel this device can be placed in remote areas to cover a wide range.
 
