@@ -7251,7 +7251,7 @@
 				)
 			)
 		)
-		(property "Value" "HE9073A33MR"
+		(property "Value" "HE9073A30MR"
 			(at 0 4.95 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7275,7 +7275,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Dropout-Regulators-LDO_HEERMICR-HE9073A33MR_C723793.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_HEERMICR-HE9073A30MR_C723792.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
