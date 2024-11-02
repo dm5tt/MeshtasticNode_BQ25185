@@ -91,10 +91,25 @@ index 6fe5c3c6..8087aa08 100644
 +board_build.f_cpu = 80000000L
 ```
 
-When configuring the device you should set the "Minimum Wake Interval" from 10 seconds to 1 second.
+# How to dramatically decrease power consumption with ESP32 Meshtastic nodes
 
-Switch  Bluetooth and Wifi off! They suck power like crazy.
+How to enable "Light Sleep".
 
+Warning: By enabling "Power Saving" you will loose *all* telemetry (Sensors, Battery Voltages, etc.)!
+
+## Router Role
+
+1. Enable "Power Saving"
+
+2. When configuring the device you should set the "Minimum Wake Interval" from 10 seconds to 1 second.
+
+3. *Switch Bluetooth and Wifi off!* They suck power like crazy.
+
+## Client Role
+
+This is more tricky as per default it doesn't switch into "Light Sleep" as several delays are blocking it.
+
+You also have to decrease "Wait Bluetooth Seconds" and "Screen on Seconds" to 1.
 
 # Evaluation
 
@@ -106,21 +121,19 @@ Switch  Bluetooth and Wifi off! They suck power like crazy.
 
 Meshtastic  supports the "Power Saving" mode on the ESP32 where the entire   device stays  in the light sleep mode until it gets a interrupt signal from the LoRa modem. In that phase CPU will consume around ~800uA while sleeping. Including LoRa RX that's a idle draw around 2-4mA.
 
-Still far away from the Wisblock. But who cares? During the day you will have a positive power budget so the entire devices runs on solar energy and recharges its battery. 
+Still far away from the RAK4631 with a Nordic microcontroller. But who cares? During the day you will have a positive power budget so the entire devices runs on solar energy and recharges its battery. 
 
 *It's not really that cheap either!*
 
 Yep. It's expensive if you build only 1 device. But the costs dramatically drop if think of building 5-10 of them as you can mass order everything (PCBs, Components from LCSC and so own).
 
-*The TI BQ25185 uses a linear regulator. That will be inefficient for solar panels above 6V.*
+*The TI BQ25185 uses a linear regulator to create the voltage before the LDO. That will be inefficient for solar panels above 6V.*
 
-Yep. That's true. One of the major flaws of this design. 
+Yes. It's very inefficient if it's running with the power path enabled (= direct solar pass-through) as the device has to burn off a lot of voltage from the panel. During battery runtime the difference is way lower which is acceptable.
+
+It maybe cause unneccesary heat during the winter time where small 18V solar panels would be a great benefit. But for 6V panels it's a within acceptable ranges.
 
 There are other variants (TI BQ25620/BQ25622) that are using a Buck converter.
-
-Most likely (untested) this will cause troubles during the winter time where 18V solar panels would be a great benefit.
-
-This is going to be in a new design (as MeshtasticNode_BQ25185 is now fully tested) in a few months.
 
 # Warning
 
