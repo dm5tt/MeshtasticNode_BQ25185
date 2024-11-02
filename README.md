@@ -91,11 +91,11 @@ index 6fe5c3c6..8087aa08 100644
 +board_build.f_cpu = 80000000L
 ```
 
-# How to dramatically decrease power consumption with ESP32 Meshtastic nodes
+# Meshtastic, ESP32 and Power Saving. How?
 
-How to enable "Light Sleep".
+Warning 1: By enabling "Power Saving" you will loose *all* telemetry (Sensors, Battery Voltages, etc.)!
 
-Warning: By enabling "Power Saving" you will loose *all* telemetry (Sensors, Battery Voltages, etc.)!
+Warning 2: You also will not be able to configure it by serial port anymore! You have a short period after power cycling it. Use the "meshtastic" Python script as it waits for a while.
 
 ## Router Role
 
@@ -103,13 +103,15 @@ Warning: By enabling "Power Saving" you will loose *all* telemetry (Sensors, Bat
 
 2. When configuring the device you should set the "Minimum Wake Interval" from 10 seconds to 1 second.
 
-3. *Switch Bluetooth and Wifi off!* They suck power like crazy.
+3. Switch Bluetooth and Wifi off! They suck power like crazy.
 
 ## Client Role
 
 This is more tricky as per default it doesn't switch into "Light Sleep" as several delays are blocking it.
 
 You also have to decrease "Wait Bluetooth Seconds" and "Screen on Seconds" to 1.
+
+Then configure is like a "Router".
 
 # Evaluation
 
