@@ -35,7 +35,7 @@ Warning 1: By enabling "Power Saving" you will loose *all* telemetry (Sensors, B
 
 Warning 2: You also will not be able to configure it by serial port anymore! You have a short period after power cycling it. Use the "meshtastic" Python script as it waits for a while.
 
-## Router Role
+### Router Role
 
 1. Enable "Power Saving"
 
@@ -43,11 +43,11 @@ Warning 2: You also will not be able to configure it by serial port anymore! You
 
 3. Switch Bluetooth and Wifi off! They suck power like crazy.
 
-## Client Role
+### Client Role
 
 This is more tricky as per default it doesn't switch into "Light Sleep" as several delays are blocking it.
 
-You also have to decrease "Wait Bluetooth Seconds" and "Screen on Seconds" to 1.
+You also have to decrease "Wait Bluetooth Seconds" and "Screen on Seconds" to 1 second.
 
 Then configure is like a "Router".
 
