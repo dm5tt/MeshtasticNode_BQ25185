@@ -37,7 +37,7 @@ Warning 2: You also will not be able to configure it by serial port anymore! You
 
 ### Router Role
 
-1. Enable "Power Saving"
+1. Enable "Power Saving" (should be activated by default if using Role role)
 
 2. When configuring the device you should set the "Minimum Wake Interval" from 10 seconds to 1 second.
 
