@@ -145,7 +145,7 @@ With a 3.3V LDO the device will switch off around ~3.5V - with 3.0V LDO it can s
 
 # Warning
 
-LED circuit for STAT1 and STAT2 not yet tested. The TI BQ25185 uses 1.8V there so we need a transistor as switch.
+LED circuit for STAT1 and STAT2 is not yet tested. The TI BQ25185 uses 1.8V for the status pins - so the LEDs must be switched via a transistor against the 3.3V supply voltage.
 
 # License
 
