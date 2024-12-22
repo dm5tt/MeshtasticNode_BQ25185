@@ -137,6 +137,12 @@ It maybe cause unneccesary heat during the winter time where small 18V solar pan
 
 There are other variants (TI BQ25620/BQ25622) that are using a Buck converter.
 
+*Why are you using a 3.0V and not a 3.3V LDO?*
+
+This gives us more runtime by only loosing 1-2dB TX power from the LoRa module.  
+
+With a 3.3V LDO the device will switch off around ~3.5V - with 3.0V LDO it can survive down to 3.2V.
+
 # Warning
 
 LED circuit for STAT1 and STAT2 not yet tested. The TI BQ25185 uses 1.8V there so we need a transistor as switch.
